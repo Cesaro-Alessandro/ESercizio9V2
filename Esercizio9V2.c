@@ -14,7 +14,7 @@ int main()
         printf("Inserisci C \n");
         scanf("%d", &numeroC);
 
-        if (numeroA < numeroB < numeroB)
+        if (numeroA < numeroB < numeroC)
         {
             vero = 1;
         }
@@ -24,7 +24,7 @@ int main()
         }
 
     }
-    while(numeroA < 0 || numeroB < 0 || numeroC < 0 && vero == 0);
+    while(numeroA < 0 || numeroB < 0 || numeroC < 0 || vero == 0);
 
     printf("Il valore maggiore è %d \n", numeroC);
     printf("Il valore minimo è %d \n", numeroA);
